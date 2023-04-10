@@ -1,5 +1,6 @@
 import random
 from weather import *
+from sensor import *
 
 
 greetings = ['hi', 'hello', 'whatsup']
