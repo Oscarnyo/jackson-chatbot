@@ -4,8 +4,8 @@ import requests
 
 response = requests.get("https://eggincubator-825e1-default-rtdb.firebaseio.com/.json")
 data = response.json()
-temperature = data['Temperature']
-humidity = data['Humidity']
+temperature = float(data['Temperature'])
+humidity = float(data['Humidity'])
 
 
 
