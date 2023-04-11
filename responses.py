@@ -11,12 +11,14 @@ ask = ['you doing', 'doing good']
 thanks = ['thanks', 'thank']
 
 
-current_weather = ['info', 'information']
+
 temperature = ['temperature', 'temp']
 humidity = ['humidity', 'humid']
-turning_egg = ['turning eggs', 'egg turn', 'turning egg', 'egg turning', 'turning', 'need to be turn','turn']
+turning_egg = ['turning eggs', 'egg turn', 'turning egg', 'need to be turn','turn']
+day = ['current day', 'current days']
 
 rude = ['noob']
+
 
 
 others = ['...','I dont know, go ask your chatgpt', 'I dont know bro', 'emmm..', 'Sorry, I do not understand','(0_0)Y']
@@ -49,6 +51,11 @@ def get_response(message: str) -> str:
     # Humidity
     if any(word in message for word in humidity):
         return str(show_humid())
+    
+    #day
+    if any(word in message for word in day):
+        return str(show_day())
+    
     
     
     #turning egg
