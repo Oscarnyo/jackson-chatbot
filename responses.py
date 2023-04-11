@@ -1,6 +1,8 @@
 import random
+import sensor
 from weather import *
 from sensor import *
+from turning_egg_fuzzy import *
 
 
 greetings = ['hi', 'hello', 'whatsup']
@@ -12,6 +14,7 @@ thanks = ['thanks', 'thank']
 current_weather = ['info', 'information']
 temperature = ['temperature', 'temp']
 humidity = ['humidity', 'humid']
+turning_egg = ['turning eggs', 'egg turn', 'turning egg', 'egg turning', 'turning', 'need to be turn','turn']
 
 rude = ['noob']
 
@@ -46,6 +49,15 @@ def get_response(message: str) -> str:
     # Humidity
     if any(word in message for word in humidity):
         return str(show_humid())
+    
+    
+    #turning egg
+    
+    if any(word in message for word in turning_egg):
+        return str(getTurning())
+    
+    
+    
 
     
 
