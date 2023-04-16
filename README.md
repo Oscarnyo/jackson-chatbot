@@ -9,7 +9,7 @@ Jupyter Notebook: https://www.anaconda.com/  \
 Google Colab: https://colab.research.google.com/
 
 ## Installation
-To use this bot, you need to install the required libraries. You can use the following command to install the required libraries:
+To use this bot, you need to install the required libraries. You can use the following command to install the required libraries:\
 pip install discord datetime pandas sklearn matplotlib skfuzzy
 
 
