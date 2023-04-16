@@ -4,6 +4,7 @@ from weather import *
 from sensor import *
 from turning_egg_fuzzy import *
 from HatchRate import *
+from advice import *
 
 
 greetings = ['hi', 'hello', 'whatsup']
@@ -18,6 +19,7 @@ day = ['current day', 'current days']
 status = ['incubator status','status', 'all', 'latest status']
 hatch = ['hatch rate', 'successful rate']
 
+Duck = ['duck egg', 'Give me the good advice for hatching duck eggs', 'duck', 'duck eggs', 'duck egg haching advice', 'duck egg tips', 'duck egg good practice', 'duck egg']
 
 
 
@@ -32,7 +34,11 @@ others = ['...','I dont know, go ask your chatgpt', 'I dont know bro', 'emmm..',
 def get_response(message: str) -> str:
     # Greetings
     
-    message = message.lower()
+    message = message.lower() 
+    
+    if any(word in message for word in Duck):
+        return str(duck())
+    
     if any(word in message for word in greetings):
         return str('Hello, I am Jackson, an Egg Incubating Chat-Bot.')
 
@@ -67,6 +73,8 @@ def get_response(message: str) -> str:
     #Hatch Rate
     if any(word in message for word in hatch):
         return str(get_hatch_rate())
+    
+   
     
     
     
