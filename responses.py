@@ -21,7 +21,7 @@ hatch = ['hatch rate', 'successful rate']
 
 
 
-rude = ['noob']
+rude = ['noob','stupid']
 
 
 
