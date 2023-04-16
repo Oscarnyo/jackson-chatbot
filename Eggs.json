@@ -1,0 +1,62 @@
+[
+ {
+   "Egg_Type": "Chicken",
+   "Inc_Days": "21",
+   "Inc_Temperature (?F)": 99.5,
+   "Inc_Humidity (%RH)": "58",
+   "Transfer_Day": "18",
+   "Hat_Temperature (?F)": 98.5,
+   "Hat_Humidity (%RH)": "66 -75",
+   "Good_Practice": "Here are some good practices for chicken egg incubation: \n\n1. Choose healthy eggs that are clean, uncracked, and free from abnormalities. \n2. Set up the incubator correctly by following the manufacturer's instructions for setting the temperature and humidity levels.\n3. Maintain a temperature between 99?F and 100.5?F (37.2?C to 38.1?C).\n4. Maintain a humidity level of around 50% for the first 18 days and increase to 65-75% for the last 3 days of incubation. \n5. Turn the eggs regularly to prevent the embryo from sticking to the shell and stop turning the eggs 3 days before they are due to hatch.\n6. Candling can be done after 7-10 days of incubation to check for fertility.\n7. Do not help the chicks out of their shells as they need to do it on their own to develop properly.\n\nBy following these practices, you can increase the chances of a successful hatch."
+ },
+ {
+   "Egg_Type": "Duck",
+   "Inc_Days": "28",
+   "Inc_Temperature (?F)": 99.5,
+   "Inc_Humidity (%RH)": "58 - 62",
+   "Transfer_Day": "25",
+   "Hat_Temperature (?F)": 98.5,
+   "Hat_Humidity (%RH)": "66 -75",
+   "Good_Practice": "Here are some good practices for duck egg incubation: \n\n1. Choose healthy eggs that are clean, uncracked, and free from abnormalities. \n2. Set up the incubator correctly by following the manufacturer's instructions for setting the temperature and humidity levels.\n3. Maintain a temperature between 99.5?F to 100?F (37.5?C to 37.8?C).\n4. Maintain a humidity level of around 55% to 65% for the first 25 days and increase to 80% for the last 3 days of incubation.\n5. Turn the eggs three to five times a day until day 25 and then stop turning them.\n6. Use candling on day 7 to check for fertility and embryo development.\n7. Do not help the ducklings out of their shells during hatching. \n\nBy following these practices, you can increase the likelihood of a successful hatch."
+ },
+ {
+   "Egg_Type": "Ostrich",
+   "Inc_Days": "42",
+   "Inc_Temperature (?F)": 97.5,
+   "Inc_Humidity (%RH)": "32?40",
+   "Transfer_Day": "39",
+   "Hat_Temperature (?F)": 97.5,
+   "Hat_Humidity (%RH)": "69",
+   "Good_Practice": "Here are some good practices for ostrich egg incubation: \n\n1. Choose healthy eggs that are clean, uncracked, and free from abnormalities. \n2. Set up the incubator correctly by following the manufacturer's instructions for setting the temperature and humidity levels.\n3. Maintain a temperature between 97.5?F to 98.5?F (36.4?C to 37?C) for the first 35 days and then lower to 96.5?F to 97.5?F (35.8?C to 36.4?C) for the last 10 days.\n4. Maintain a humidity level of around 30% to 40% for the first 25 days, 50% to 60% for the next 5 days, and then increase to 70% to 80% for the last 10 days of incubation.\n5. Turn the eggs three to five times a day until day 35 and then stop turning them. \n6. Use candling on day 7 to check for fertility and embryo development.\n7. Do not help the chicks out of their shells during hatching. \n\nBy following these practices, you can increase the likelihood of a successful ostrich egg hatch."
+ },
+ {
+   "Egg_Type": "Peafowl",
+   "Inc_Days": "28 - 29",
+   "Inc_Temperature (?F)": 99.5,
+   "Inc_Humidity (%RH)": "58?62",
+   "Transfer_Day": "25 - 26",
+   "Hat_Temperature (?F)": 98.5,
+   "Hat_Humidity (%RH)": "66 -75",
+   "Good_Practice": "Here are some good practices for peafowl egg incubation: \n\n1. Choose healthy eggs that are clean, uncracked, and free from abnormalities. \n2. Set up the incubator correctly by following the manufacturer's instructions for setting the temperature and humidity levels.\n3. Maintain a temperature between 99.5?F to 100.5?F (37.5?C to 38.1?C)\n4. Maintain a humidity level of around 50% to 60% for the first 24 days, and then increase to 65% to 75% for the last few days of incubation. \n5. Turn the eggs three to five times a day until day 24 and then stop turning them.\n6. Use candling on day 7 to check for fertility and embryo development.\n7. Do not help the chicks out of their shells during hatching. \n\nBy following these practices, you can increase the likelihood of a successful peafowl egg hatch."
+ },
+ {
+   "Egg_Type": "Pigeon",
+   "Inc_Days": "17 - 19",
+   "Inc_Temperature (?F)": 100.5,
+   "Inc_Humidity (%RH)": "58",
+   "Transfer_Day": "14",
+   "Hat_Temperature (?F)": 99,
+   "Hat_Humidity (%RH)": "66 - 74",
+   "Good_Practice": "Here are some good practices for pigeon egg incubation: \n\n1. Choose healthy eggs that are clean, uncracked, and free from abnormalities. \n2. Set up the incubator correctly by following the manufacturer's instructions for setting the temperature and humidity levels.\n3. Maintain a temperature between 99.5?F to 100.5?F (37.5?C to 38.1?C).\n4. Maintain a humidity level of around 55% to 60% for the first 17 days, and then increase to 80% for the last few days of incubation.\n5. Turn the eggs three to five times a day until day 17 and then stop turning them.\n6. Use candling on day 7 to check for fertility and embryo development.\n7. Do not help the chicks out of their shells during hatching. \n\nBy following these practices, you can increase the likelihood of a successful pigeon egg hatch."
+ },
+ {
+   "Egg_Type": "Turkey",
+   "Inc_Days": "28",
+   "Inc_Temperature (?F)": 99.5,
+   "Inc_Humidity (%RH)": "54?58",
+   "Transfer_Day": "25",
+   "Hat_Temperature (?F)": 98.5,
+   "Hat_Humidity (%RH)": "66 -75",
+   "Good_Practice": "Here are some good practices for turkey egg incubation: \n\n1. Choose healthy eggs that are clean, uncracked, and free from abnormalities. \n2. Set up the incubator correctly by following the manufacturer's instructions for setting the temperature and humidity levels.\n3. Maintain a temperature between 99.5?F to 100.5?F (37.5?C to 38.1?C).\n4. Maintain a humidity level of around 50% to 60% for the first 25 days, and then increase to 65% to 75% for the last few days of incubation.\n5. Turn the eggs three to five times a day until day 25 and then stop turning them. \n6. Use candling on day 7 to check for fertility and embryo development.\n7. Do not help the chicks out of their shells during hatching.\n\nBy following these practices, you can increase the likelihood of a successful turkey egg hatch."
+ }
+]
