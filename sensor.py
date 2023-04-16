@@ -1,4 +1,6 @@
 import requests
+import datetime
+import pytz
 
 
 
@@ -18,9 +20,21 @@ def gettemp():
 def gethumid():
     return humidity
 
+def getTemp_Humid():
+    return temperature, humidity
+
+def getTime():
+    return datetime.datetime.now(pytz.timezone('Asia/Shanghai')).strftime("%Y-%m-%d %H:%M")
+
+def getAll():
+    return f'Current temperature: {gettemp()}°C\n' \
+           f'Current humidity: {gethumid()}%\n' \
+           f'Is Day {int(getDay())} of the egg hatching process\n' \
+           f'Last Updated: {getTime()}'
+
 ############### Temperature ############
 def show_temp():
-    return f'''Current temperature will be at {+ gettemp()}°C'''
+    return f'''Current temperature is {+ gettemp()}°C'''
 
 
 ##############Humidity#################
@@ -29,4 +43,4 @@ def show_humid():
 
 
 def show_day():
-    return f'''is Day {int(getDay())} of the egg hatching process'''
+    return f'''Is Day {int(getDay())} of the egg hatching process'''

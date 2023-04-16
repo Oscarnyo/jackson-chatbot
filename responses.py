@@ -3,6 +3,7 @@ import sensor
 from weather import *
 from sensor import *
 from turning_egg_fuzzy import *
+from HatchRate import *
 
 
 greetings = ['hi', 'hello', 'whatsup']
@@ -10,12 +11,15 @@ end = ['bye', 'goodbye']
 ask = ['you doing', 'doing good']
 thanks = ['thanks', 'thank']
 
-
-
 temperature = ['temperature', 'temp']
 humidity = ['humidity', 'humid']
 turning_egg = ['turning eggs', 'egg turn', 'turning egg', 'need to be turn','turn']
 day = ['current day', 'current days']
+status = ['incubator status','status', 'all', 'latest status']
+hatch = ['hatch rate', 'successful rate']
+
+
+
 
 rude = ['noob']
 
@@ -55,6 +59,14 @@ def get_response(message: str) -> str:
     #day
     if any(word in message for word in day):
         return str(show_day())
+    
+    #Get All
+    if any(word in message for word in status):
+        return str(getAll())
+    
+    #Hatch Rate
+    if any(word in message for word in hatch):
+        return str(get_hatch_rate())
     
     
     
