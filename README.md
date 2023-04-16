@@ -5,7 +5,7 @@ the success rate of hatching the egg. This project is an egg incubator bot that 
 The bot uses several libraries such as discord, datetime, pandas, sklearn, matplotlib, and skfuzzy to function properly.
 
 ## Platform
-Jupyter Notebook: https://www.anaconda.com/
+Jupyter Notebook: https://www.anaconda.com/  \
 Google Colab: https://colab.research.google.com/
 
 ## Installation
