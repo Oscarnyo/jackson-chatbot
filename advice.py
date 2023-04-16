@@ -11,5 +11,5 @@ def get_good_practice(egg_type):
         return good_practice[0]
 
 #Use the function above
-good_practice = get_good_practice('cHicken')
+good_practice = get_good_practice('Chicken')
 print(good_practice) 
