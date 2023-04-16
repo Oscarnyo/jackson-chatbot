@@ -1,6 +1,5 @@
 import random
 import sensor
-from weather import *
 from sensor import *
 from turning_egg_fuzzy import *
 from HatchRate import *
@@ -19,8 +18,17 @@ day = ['current day', 'current days']
 status = ['incubator status','status', 'all', 'latest status']
 hatch = ['hatch rate', 'successful rate']
 
+Chicken = ['chicken egg', 'Give me the good advice for hatching chicken eggs', 'chicken', 'chicken eggs', 'chicken egg haching advice', 'chicken egg tips', 'chicken egg good practice', 'chicken egg']
+
 Duck = ['duck egg', 'Give me the good advice for hatching duck eggs', 'duck', 'duck eggs', 'duck egg haching advice', 'duck egg tips', 'duck egg good practice', 'duck egg']
 
+Ostrich = ['ostrich egg', 'Give me the good advice for hatching ostrich eggs', 'ostrich', 'ostrich eggs', 'ostrich egg haching advice', 'ostrich egg tips', 'ostrich egg good practice', 'ostrich egg']
+
+Peafowl = ['peafowl egg', 'Give me the good advice for hatching peafowl eggs', 'peafowl', 'peafowl eggs', 'peafowl egg haching advice', 'peafowl egg tips', 'peafowl egg good practice', 'peafowl egg']
+
+Pigeon = ['pigeon egg', 'Give me the good advice for hatching pigeon eggs', 'pigeon', 'pigeon eggs', 'pigeon egg haching advice', 'pigeon egg tips', 'pigeon egg good practice', 'pigeon egg']
+
+Turkey = ['turkey egg', 'Give me the good advice for hatching turkey eggs', 'turkey', 'turkey eggs', 'turkey egg haching advice', 'turkey egg tips', 'turkey egg good practice', 'turkey egg']
 
 
 rude = ['noob','stupid']
