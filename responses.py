@@ -35,9 +35,23 @@ def get_response(message: str) -> str:
     # Greetings
     
     message = message.lower() 
+    if any(word in message for word in Chicken):
+        return str(chicken())
     
     if any(word in message for word in Duck):
         return str(duck())
+    
+    if any(word in message for word in Ostrich):
+        return str(ostrich())
+    
+    if any(word in message for word in Peafowl):
+        return str(peafowl())
+    
+    if any(word in message for word in Pigeon):
+        return str(pigeon())
+    
+    if any(word in message for word in Turkey):
+        return str(turkey())
     
     if any(word in message for word in greetings):
         return str('Hello, I am Jackson, an Egg Incubating Chat-Bot.')
